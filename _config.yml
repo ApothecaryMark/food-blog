@@ -2,7 +2,7 @@
 # Site
 
 title: Treat Template
-url: "https://spring-bat.cloudvent.net/"
+url: "https://apothecarymark.github.io/food-blog"
 baseurl:
 google_analytics_key:
 newsletter_action:
@@ -74,14 +74,14 @@ exclude:
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
+ # - Facebook
+ # - Google Plus
+ # - Instagram
+ # - LinkedIn
+ # - Pinterest
+ # - Tumblr
+ # - Twitter
+ # - YouTube
   - RSS
 
 _options:
