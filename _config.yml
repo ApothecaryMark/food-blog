@@ -180,3 +180,7 @@ prose:
     - index.html
     - Gemfile
     - Gemfile.lock
+    - LICENSE
+    - apple-touch-icon.png
+    - touch-icon.png
+    - contact-success.html
