@@ -88,3 +88,94 @@ _options:
   author_image:
     width: 400
     height: 400
+    
+prose:
+  metadata:
+    _includes:
+      - name: "title"
+        field:
+          element: "hidden"
+          label: "title"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: true
+    contact.md:
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "subtitle"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "hidden"
+          value: "/contact"
+    about.md:
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "subtitle"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "hidden"
+          value: "/about"
+    _posts:
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "subtitle"
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "layout"
+      - name: "categories"
+        field:
+          element: "hidden"
+          label: "categories"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: true
+  media: "img"
+  ignore:
+    - /_sass
+    - /_data
+    - /_includes/category
+    - /_includes/externals
+    - /_includes/meta_tags
+    - /_includes/page
+    - /_includes/post
+    - /_includes/header.html
+    - /_layouts
+    - /img
+    - /assets
+    - /css
+    - /categories
+    - CNAME
+    - sitemap.xml
+    - feed.xml
+    - readme.html
+    - README.md
+    - .gitignore
+    - robots.txt
+    - 404.html
+    - index.html
+    - Gemfile
+    - Gemfile.lock
