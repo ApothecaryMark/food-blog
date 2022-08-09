@@ -164,6 +164,7 @@ prose:
     - /_includes/post
     - /_includes/header.html
     - /_layouts
+    - /js
     - /img
     - /assets
     - /css
