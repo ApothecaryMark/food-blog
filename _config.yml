@@ -156,7 +156,6 @@ prose:
   media: "img"
   ignore:
     - /_sass
-    - /_data
     - /_includes/category
     - /_includes/externals
     - /_includes/meta_tags
